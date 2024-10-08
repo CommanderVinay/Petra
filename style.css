@@ -1,0 +1,307 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.body {
+ 
+  background: red;
+}
+
+.triangle{
+  float: left;
+  width: 0;
+	height: 0;
+	border-top: 100px solid #ffffff;
+	border-right: 100px solid transparent;
+}
+.book {
+  text-align: center;
+  height: 40px;
+  width: 130px;
+  margin: 40px 120px;
+  background: #fff;
+  padding: 5px;
+  margin: 30px 220px  ;
+  padding: auto;
+}
+.b1{
+  text-align: center;
+  margin: auto;
+  padding: 0 !important;
+  background: #3B5998;
+
+}
+.titlebox {
+  text-align: center;
+}
+
+.titlebox img {
+  width: 210px;
+  margin: 15px 0;
+}
+.carousel-item {
+  position: relative;
+}
+.navbar {
+  text-align: center;
+  margin: 20px 0;
+  color: rgb(243, 239, 239);
+  
+}
+.imgtext {
+  height: 400px;
+  width: 500px;
+  color: #fff;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+}
+
+.s2a {
+  margin: 130px 0;
+}
+.s2b {
+  margin: 100px 50px;
+  padding: 20px 20px;
+}
+
+.s2button {
+  height: 40px;
+  width: 130px;
+  color: #fff;
+  margin: 100px 0;
+  text-align: center;
+  background: #3b5998;
+  padding: 5px;
+}
+.s3,.s5,.s8 {
+  width: 100%;
+  background: #edf0f6;
+  text-align: center;
+  padding: 40px;
+  margin: 50px;
+}
+.s3a {
+  text-align: left;
+}
+.card {
+  text-align: center;
+  background: #fff !important;
+  margin: 20px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.18);
+}
+.card img {
+  text-align: center;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+.btn {
+  border-radius: 0px !important;
+  background: #3b5998 !important;
+  border-color: #3b5998 !important;
+}
+.sline {
+  height: 1em;
+  margin: auto;
+  padding: auto;
+  width: 15em;
+  background: #bec8dd;
+  position: relative;
+}
+.card-title {
+  position: absolute;
+  top: -15px;
+  left: 85px;
+}
+
+.s5a {
+  text-align: left;
+}
+.s5b p {
+  font-size: 12px;
+  font-weight: 650px;
+}
+.card {
+  margin: 5px;
+  padding: auto;
+}
+.card-body {
+  padding: auto;
+  margin: auto;
+}
+.card img {
+  height: 10em;
+  width: 10em;
+  padding: auto;
+  margin: auto;
+}
+.mainbox{
+  height: 1000px;
+  width: 100%;
+  background:#EDF0F6;
+  position: relative;
+}
+.bgbox{
+  height: 350px;
+  width: 100%;
+  z-index: 100px;
+  background: #3B5998;
+  position: absolute;
+  top: 300px;
+}
+.mainimg{
+  height: 550px;
+  z-index: 1000px;
+  position: absolute;
+  top: 250px;
+  left: 50px;
+  
+}
+.arrow{
+  height: 70px;
+  width: 70px;
+  background: #3B5998;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  border-radius: 50%;
+}
+.arrow a{
+text-decoration: none;
+  color: #fff;
+  
+}
+.arrowl{
+  position: absolute;
+  top: 700px;
+  left: 50px;
+}
+.arrowr{
+  position: absolute;
+  top: 700px;
+  left: 450px;
+}
+.simg {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 615px;
+}
+
+.simg1{
+  left:600px ;
+}.simg2{
+  left: 690px;
+}.simg3{
+  left:780px ;
+}
+.text1{
+  position: absolute;
+  float: right;
+  top: 50px;
+  right: 80px;
+}
+
+.text2{
+  width: 600px;
+  color: #fff;
+  font-size: 20px;
+  margin-left: 600px;
+  padding: 70px 0;
+}
+
+.git {
+  height: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  border: solid 1px #000;
+  border-radius: 5px;
+  margin: 10px;
+  background: #EDF0F6;
+}
+.git h1{
+  margin: auto;
+  padding: auto;
+}
+footer{
+  padding: 50px;
+  background: #222222;
+  color: #fff;
+  
+}
+footer a{
+  text-decoration: none;
+  color: #fff;
+}
+.ftop{
+  border-radius:40px;
+  background:#444444 ;
+  width: 200px;
+  
+ 
+}
+.ftop h4{
+  text-align: center;
+  
+}
+
+.fconleft{
+  width: 3em;
+  height: 3em;
+  float: left;
+  padding: 0;
+  margin: 0 10px;
+  background: #444444 ;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.fconright{
+  
+  padding: 10px;
+  margin: auto;
+}
+
+.fconleft i{
+  width: 50px;
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  
+}
+.fc2 {
+  text-align: right;
+  margin: auto;
+ 
+
+}
+.fc2 i{
+  margin:10px;
+}
+.fc2 a{
+  text-decoration: none;
+  color: #fff;
+  margin: auto;
+ 
+}
+.flast {
+  background: #444444;
+  border-radius: 5px;
+  margin: 25px 0;
+}
+.flastl p{
+  margin: 15px 0;
+ 
+
+}
+.link i{
+ margin: 0 10px 0 0 ;
+
+}
+
+
