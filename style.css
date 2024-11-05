@@ -3,8 +3,11 @@
   margin: 0;
 }
 .body {
- 
-  background: red;
+  background:#FFF;
+}
+.titlebox {
+  text-align: center;
+  overflow: hidden;
 }
 
 .triangle{
@@ -18,11 +21,13 @@
   text-align: center;
   height: 40px;
   width: 130px;
-  margin: 40px 120px;
   background: #fff;
   padding: 5px;
   margin: 30px 220px  ;
-  padding: auto;
+}
+.topbtn{
+  color: #000;
+  text-decoration: none;
 }
 .b1{
   text-align: center;
@@ -31,9 +36,7 @@
   background: #3B5998;
 
 }
-.titlebox {
-  text-align: center;
-}
+
 
 .titlebox img {
   width: 210px;
@@ -56,13 +59,27 @@
   top: 300px;
   left: 100px;
 }
+.s1{
+  overflow: hidden;
+}
+.s2,.s3,.s4,.s5,.s6{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+ font-weight:14px;
+ overflow: hidden;
+}
 
 .s2a {
   margin: 130px 0;
 }
-.s2b {
+.s2b {r
   margin: 100px 50px;
   padding: 20px 20px;
+ 
+}
+.s2b a{
+  text-decoration: none;
+  color: #fff;
 }
 
 .s2button {
@@ -78,19 +95,19 @@
   width: 100%;
   background: #edf0f6;
   text-align: center;
-  padding: 40px;
-  margin: 50px;
+  padding: 50px 140px;
+ 
 }
 .s3a {
   text-align: left;
 }
-.card {
+.s3 .card {
   text-align: center;
   background: #fff !important;
-  margin: 20px;
+  margin: 20px auto !important;
   box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.18);
 }
-.card img {
+.s3 .card img {
   text-align: center;
   margin: auto;
   height: 100px;
@@ -114,15 +131,15 @@
   top: -15px;
   left: 85px;
 }
-
 .s5a {
   text-align: left;
 }
 .s5b p {
-  font-size: 12px;
-  font-weight: 650px;
+  font-size: 13px;
+  font-weight: 650;
 }
-.card {
+.s5 .card {
+  width: 12em;
   margin: 5px;
   padding: auto;
 }
@@ -130,11 +147,120 @@
   padding: auto;
   margin: auto;
 }
-.card img {
+ .s5 .card img {
   height: 10em;
   width: 10em;
   padding: auto;
   margin: auto;
+}
+.s4{
+  background: #3B5998;
+  padding: 50px ;
+  overflow: hidden;
+}
+.s4a{
+  text-align: left;
+  color: #fff;
+  padding: 200px 100px !important;
+  font-size: 14px;
+  padding-bottom: 0;
+}
+.s4a h3{
+  font-weight: 600;
+}
+.s4b{
+  position: relative;
+  padding-bottom: 0;
+}
+.s4circle{
+  text-align: center;
+  margin: auto;
+  padding: auto;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.s4circle b{
+  font-size: 60px;
+}
+.s4circle1{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+background: #80D8FF;
+position: absolute;
+top:20px;
+left: 100px;
+}
+
+.s4circle2{
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+  background: #BEC8DD;
+  position: absolute;
+  top:255px;
+  left: 220px;
+}
+.s4circle3{
+  height: 250px;
+  width: 250px;
+  font-size: 20px;
+  border-radius: 50%;
+  background: #4D9AD4;
+  position: absolute;
+  top:150px;
+  left: 450px;
+}
+.smallcircle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+}
+.smallcircle1{
+  background:#EDF0F6 ;
+  position: absolute;
+  top:90px ;
+  right:400px ;
+  
+}
+.smallcircle2{
+  background: #BEC8DD;
+  position: absolute;
+  top:450px ;
+  
+}
+.smallcircle3{
+  background:#B3F68C ;
+  position: absolute;
+  top:500px ;
+  right:100px ;
+}
+.smallcircle4{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background:#FFFFFF ;
+  position: absolute;
+  top:400px ;
+  left:100px ;
+}
+.smallcircle5{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background:#80D8FF ;
+  position: absolute;
+  top: 470px;
+  right:230px ;
+}
+.s7{
+  overflow: hidden;
 }
 .mainbox{
   height: 1000px;
@@ -142,6 +268,7 @@
   background:#EDF0F6;
   position: relative;
 }
+
 .bgbox{
   height: 350px;
   width: 100%;
@@ -232,6 +359,9 @@ footer{
   color: #fff;
   
 }
+.f1{
+  pad: 10px;
+}
 footer a{
   text-decoration: none;
   color: #fff;
@@ -272,7 +402,6 @@ footer a{
   text-align: center;
   padding: auto;
   margin: auto;
-  
 }
 .fc2 {
   text-align: right;
@@ -296,12 +425,187 @@ footer a{
 }
 .flastl p{
   margin: 15px 0;
- 
-
 }
 .link i{
  margin: 0 10px 0 0 ;
 
 }
 
+@media only screen and (max-width:576px) {
+  .book{
+    margin: 30px 150px;
+  }
+  .triangle{
+    border-top: 100px solid #ffffff;
+    border-right: 100px solid transparent;
+  }
+  .s3,.s8 {
+    padding:30px 10px;
+   
+  }
+  .s3 .card{
+    margin-top: 5px !important;
+  }
+  .s4{
+    background: #3B5998;
+    padding: 20px 20px !important;
+
+  }
+  .s4a{
+    text-align: left;
+    color: #fff;
+    padding: 20px 10px !important;
+    font-size: 8px;
+  }
+  .s4a h3{
+    font-size: 8px;
+    font-weight: 600;
+    
+  }
+  .s4b{
+    position: relative;
+  }
+  .s4circle{
+    color: #fff;
+    padding: 0px;
+    font-size: 10px;
+    font-weight: 600px;
+   
+  }
+  .s4circle b{
+    font-size: 16px;
+  }
+  .s4circle1{
+    height: 90px;
+    width: 90px;
+    top:5px;
+    left:20px;
+  }
+  
+  .s4circle2{
+    height: 90px;
+    width: 90px;
+    top:63px;
+    left: 70px;
+  }
+  .s4circle3{
+    height: 80px;
+    width: 80px;
+    font-size: 10px;
+    top:20px;
+    left: 130px;
+  }
+  .smallcircle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    
+  }
+  .smallcircle1{
+    top:20px ;
+    right:120px ;
+    
+  }
+  .smallcircle2{
+    background: #BEC8DD;
+    top:140px ;
+    
+  }
+  .smallcircle3{
+   height: 11px;
+   width: 11px;
+    top:140px ;
+    right:20px ;
+  }
+  .smallcircle4{
+    height: 6px;
+    width: 6px;
+    top:120px ;
+    left:30px ;
+  }
+  .smallcircle5{
+    height: 8px;
+    width: 8px;
+    top: 120px;
+    right:50px ;
+  }
+  .s5{
+    padding:30px 15px;
+  }
+  .s5 .card{
+    margin: 8px  0 !important;
+  }
+  .mainbox{
+    height: 1000px;
+    width: 100%;
+   
+  }
+  
+  .bgbox{
+    height: 270px;
+    width: 100%;
+    top: 300px;
+    padding: 20px;
+  }
+  .mainimg{
+    height: 250px;
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    
+  }
+  .arrow{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .arrowl{
+    top: 630px;
+    left: 50px;
+  }
+  .arrowr{
+    top: 630px;
+    left: 300px;
+  }
+  .simg {
+    height: 70px;
+    width: 70px;
+    top: 530px;
+  }
+  
+  .simg1{
+    left:90px ;
+  }.simg2{
+    left: 170px;
+  }.simg3{
+    left:250px ;
+  }
+  .text1{
+    float: right;
+    top: 50px;
+    right: 100px;
+  }
+  
+  .text2{
+    width: 300px;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 50px;
+    padding: 70px 0;
+  }
+  footer{
+    font-size: 10px;
+    padding: 10px;
+
+  }
+  footer h4{
+    font-size: 15px;
+  }
+  .f1 img{
+    width: 200px;
+  }
+  .link p{
+    margin: 0px;
+  }
+}
 
